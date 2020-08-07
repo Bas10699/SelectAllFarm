@@ -1,6 +1,9 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 const AddData = () => {
+    useEffect(() => {
+        document.title = "SELECT * FARM | Add Data"
+    }, [])
     return (
         <form className="was-validated">
             <div className="form-group">

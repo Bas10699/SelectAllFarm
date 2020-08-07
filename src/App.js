@@ -9,6 +9,7 @@ import Home from './component/Home'
 import Register from './component/Register'
 import AddData from './component/AddData';
 function App() {
+  
   return (
     // <div className="App">
     //   <div className="alert alert-success" role="alert">
